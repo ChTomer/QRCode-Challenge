@@ -15,7 +15,7 @@ body {
     background-color: var(--wt);
     padding: 10px 0px 20px 0px;
     border-radius: 20px;
-    margin: 50px auto;
+    margin: 10px auto 50px;
     width: 330px; 
 
 }
@@ -38,6 +38,7 @@ p {
     width: 250px;
     font-family: var(--font);
     font-size: 0.9375em;
+    color: var(--gb);
     margin: 10px 40px;
     text-align: center;
 }
