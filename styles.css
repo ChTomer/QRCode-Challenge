@@ -1,0 +1,55 @@
+:root {
+    --font: 'Outfit', sans-serif;
+    --wt: hsl(0, 0%, 100%);
+    --lg: hsl(212, 45%, 89%);
+    --gb:  hsl(220, 15%, 55%);
+    --db: hsl(218, 44%, 22%);
+}
+body {
+    background-color: var(--lg);
+    font-family: var(--font);
+    text-align: center;
+}
+.qr-container {
+    position: relative;
+    background-color: var(--wt);
+    padding: 10px 0px 20px 0px;
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 330px; 
+
+}
+
+img {
+    position: relative;
+    width: 290px;
+    border-radius: 20px;
+    margin: 10px;
+}
+h3 {
+    position: relative;
+    width: 250px;
+    font-family: var(--font);
+    text-align: center;
+    margin: 10px 40px;
+}
+p {
+    position: relative;
+    width: 250px;
+    font-family: var(--font);
+    font-size: 0.9375em;
+    margin: 10px 40px;
+    text-align: center;
+}
+
+.attribution {
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    background-color: var(--lg);
+}
+.attribution a { 
+    position:relative;
+    background-color: var(--lg) ;
+    color: hsl(228, 45%, 44%); 
+}
